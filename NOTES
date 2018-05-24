@@ -1,0 +1,16 @@
+src/allmain.c:
+    moveloop(),
+    regen_hp(),
+    stop_occupation(),
+    display_gamewindows(),
+    newgame(),
+    welcome(),
+    interrupt_multi(),
+    argcheck(),
+    debug_fields()
+
+Still need to find where newgame() is invoked! Where's the game loop?
+
+src/cmd.c: Seems important, may define behavior for all player commands
+
+
